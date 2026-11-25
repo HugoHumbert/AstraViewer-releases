@@ -16,6 +16,18 @@ export it as images or 3D scenes.
 
 That's it: AstraViewer opens, and you can find it in the Start menu and on the desktop.
 
+## Install (Linux)
+
+From the [latest version](https://github.com/HugoHumbert/AstraViewer-releases/releases/latest), under **Assets**:
+
+- **Ubuntu, Debian, Linux Mint, Pop!_OS…**: download `astraviewer_…_amd64.deb` and open it (Software / App Center),
+  or in a terminal: `sudo apt install ./astraviewer_*_amd64.deb`. AstraViewer then appears in the applications menu.
+- **Any other distribution**: download `AstraViewer-…-x86_64.AppImage`, make it executable
+  (`chmod +x AstraViewer-*.AppImage`, or Properties → "Allow executing as a program"), then open it.
+
+For the free local AI, install [Ollama](https://ollama.com/download/linux):
+`curl -fsSL https://ollama.com/install.sh | sh`.
+
 ## First launch
 
 The first time, AstraViewer asks to download its AI model: click **Install qwen3:8b** (5.2 GB, once only).
@@ -26,10 +38,10 @@ API key from [console.anthropic.com](https://console.anthropic.com) or [platform
 ## Good to know
 
 - **Updates are automatic**: new versions download in the background and install when you close the app.
-- **Your creations** are saved in `Documents\AstraViewer\library`.
-- **Uninstall**: Windows Settings → Apps → AstraViewer.
+- **Your creations** are saved in `Documents\AstraViewer\library` (Linux: `~/Documents/AstraViewer/library`).
+- **Uninstall**: Windows Settings → Apps → AstraViewer; Linux: `sudo apt remove astraviewer`, or delete the AppImage.
 - A recent graphics card gives the best results, but the app adapts to smaller computers.
-- Not available yet on macOS or Linux.
+- Not available yet on macOS.
 
 ---
 
@@ -50,6 +62,19 @@ simplement, puis exportez-les en images ou en scènes 3D.
 
 C'est tout : AstraViewer s'ouvre, et vous le retrouvez dans le menu Démarrer et sur le bureau.
 
+### Installer (Linux)
+
+Depuis la [dernière version](https://github.com/HugoHumbert/AstraViewer-releases/releases/latest), sous **Assets** :
+
+- **Ubuntu, Debian, Linux Mint, Pop!_OS…** : téléchargez `astraviewer_…_amd64.deb` et ouvrez-le (Logithèque),
+  ou dans un terminal : `sudo apt install ./astraviewer_*_amd64.deb`. AstraViewer apparaît alors dans le menu des
+  applications.
+- **Autres distributions** : téléchargez `AstraViewer-…-x86_64.AppImage`, rendez-le exécutable
+  (`chmod +x AstraViewer-*.AppImage`, ou Propriétés → « Autoriser l'exécution comme programme »), puis ouvrez-le.
+
+Pour l'IA locale gratuite, installez [Ollama](https://ollama.com/download/linux) :
+`curl -fsSL https://ollama.com/install.sh | sh`.
+
 ### Premier lancement
 
 La première fois, AstraViewer propose de télécharger son modèle d'IA : cliquez sur **Installer qwen3:8b**
@@ -63,7 +88,8 @@ ou [platform.openai.com](https://platform.openai.com).
 
 - **Les mises à jour sont automatiques** : les nouvelles versions se téléchargent en arrière-plan et s'installent
   quand vous fermez l'application.
-- **Vos créations** sont enregistrées dans `Documents\AstraViewer\library`.
-- **Désinstaller** : Paramètres de Windows → Applications → AstraViewer.
+- **Vos créations** sont enregistrées dans `Documents\AstraViewer\library` (Linux : `~/Documents/AstraViewer/library`).
+- **Désinstaller** : Paramètres de Windows → Applications → AstraViewer ; Linux : `sudo apt remove astraviewer`, ou
+  supprimez l'AppImage.
 - Une carte graphique récente donne les meilleurs résultats, mais l'application s'adapte aux ordinateurs plus modestes.
-- Pas encore disponible sur macOS ni Linux.
+- Pas encore disponible sur macOS.
